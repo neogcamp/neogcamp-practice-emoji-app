@@ -1,4 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rowdies&display=swap");
+
+/* Global styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+header {
+  background: #be185d;
+  min-height: 8vh;
+  display: flex;
+  justify-content: center;
+}
+#logo h1 {
+  font-size: 6rem;
+  color: #fff1f2;
+  font-family: "Bungee Shade", cursive;
+}
+
+#hero {
+  background: linear-gradient(#f9a8d4, transparent);
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.search {
+  border-radius: 2rem;
+  border: 0.3rem solid #be185d;
+}
+h3,
+h2 {
+  color: #ec4899;
+  margin: 1rem;
+}
+
+#heading {
+  color: #be185d;
+  text-align: center;
+  margin: 2rem 5rem 5rem 5rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: "Rowdies", cursive;
+}
+
+#icon {
+  color: #be185d;
+  text-align: center;
+  margin: 5rem 5rem 2rem 5rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: "Rowdies", cursive;
+}
+
+#list {
+  max-width: 75vw;
+  margin: 5rem;
+}
+
+footer {
+  color: #fff1f2;
+  font-family: "Bungee Shade", cursive;
+
+  /* padding: 0.5rem; */
+  background: #be185d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.end h3 {
+  font-size: 2rem;
+}
+.end a {
+  color: #fff1f2;
+  text-decoration: none;
+  font-size: 4rem;
 }
